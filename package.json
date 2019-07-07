@@ -1,0 +1,17 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aim97",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cpu-stat": "^2.0.1",
+    "validator": "^11.0.0",
+    "yargs": "^13.2.4"
+  }
+}
