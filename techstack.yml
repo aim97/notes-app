@@ -1,0 +1,102 @@
+repo_name: aim97/notes-app
+report_id: 00d550b68b24e4cd6033679683dc7cca
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T19:08:13+00:00'
+requested_by: aim97
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aim97/notes-app
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aim97/notes-app
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aim97/notes-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 15:26:22.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/aim97/notes-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 15:26:22.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/aim97/notes-app/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 15:26:22.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/aim97/notes-app/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 15:26:22.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in validator.js
+    cve_id: CVE-2021-3765
+    cve_url: https://github.com/advisories/GHSA-qgmg-gppg-76g5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 13.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/aim97/notes-app/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: aim97
+  last_updated_on: 2019-07-07 15:26:22.000000000 Z
